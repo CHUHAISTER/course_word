@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nulp.course_work.Controller">
+   <children>
+      <Label layoutX="27.0" text="Change assortment menu">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="200.0" layoutY="89.0" mnemonicParsing="false" onAction="#SwitchtoAddFlower" text="Add new flower">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="179.0" layoutY="149.0" mnemonicParsing="false" onAction="#SwitchtoAddAccessory" text="Add new accessory">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="214.0" layoutY="207.0" mnemonicParsing="false" onAction="#SwitchtoDeleteFlower" text="Delete flower">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="192.0" layoutY="269.0" mnemonicParsing="false" onAction="#SwitchtoDeleteAccessory" text="Delete accessory">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="255.0" layoutY="333.0" mnemonicParsing="false" onAction="#SwitchtoMain" text="Back">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

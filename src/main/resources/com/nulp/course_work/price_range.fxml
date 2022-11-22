@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane hgap="15.0" vgap="15.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+    </padding>
+    <Label text="Min price" />
+    <Label text="Max price" GridPane.rowIndex="1" />
+    <TextField fx:id="minpricefield" GridPane.columnIndex="1" />
+    <TextField fx:id="maxpricefield" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+</GridPane>

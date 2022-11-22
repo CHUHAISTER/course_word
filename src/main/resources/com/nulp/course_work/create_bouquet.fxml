@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nulp.course_work.Controller">
+   <children>
+      <Label layoutX="135.0" layoutY="14.0" text="Create Bouquet">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="20.0" layoutY="74.0" mnemonicParsing="false" onAction="#SwitchtoAddFBouquet" text="Add flowers">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="20.0" layoutY="130.0" mnemonicParsing="false" onAction="#SwitchtoAddABouquet" text="Add accessories">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="18.0" layoutY="186.0" mnemonicParsing="false" onAction="#SwitchtoDeleteFBouquet" text="Delete flowers">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="17.0" layoutY="240.0" mnemonicParsing="false" onAction="#SwitchtoDeleteABouquet" text="Delete accessories">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="428.0" layoutY="74.0" mnemonicParsing="false" onAction="#SwitchtoBuyBouquet" text="Buy">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="374.0" layoutY="130.0" mnemonicParsing="false" onAction="#SwitchtoInfoBouquet" text="Print info">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="415.0" layoutY="186.0" mnemonicParsing="false" onAction="#SwitchtoMain" text="Back">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
